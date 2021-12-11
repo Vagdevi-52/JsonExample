@@ -1,0 +1,9 @@
+import 'dart:convert';
+
+main()
+{
+    String objtext = '{"name" : "viratkohli","age" : 30, "gender" : male }';
+
+    user user= user.fromjson(jsonDecode(objText));
+    print(user);
+}
